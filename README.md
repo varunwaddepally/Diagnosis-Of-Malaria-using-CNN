@@ -386,13 +386,13 @@ The model has not been medically validated. Its predictions should not be used t
 ## Project Screenshots
 
 ### 1. Home Page
-![Home Page](images/home-page.png)
+![Home Page](static/images/home-page.png)
 
 ### 2. Image Upload Interface
-![Image Upload](images/image-upload.png)
+![Image Upload](static/images/image-upload.png)
 
 ### 3. Classification Result – Parasitized
-![Parasitized Result](images/parasitized-result.png)
+![Parasitized Result](static/images/parasitized-result.png)
 
 ### 4. Classification Result – Uninfected
-![Uninfected Result](images/uninfected-result.png)
+![Uninfected Result](static/images/uninfected-result.png)
