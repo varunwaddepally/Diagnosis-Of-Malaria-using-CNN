@@ -382,3 +382,17 @@ Malaria-Cell-Image-Classification/
 This project is intended for educational purposes and experimentation with computer vision and deep learning.
 
 The model has not been medically validated. Its predictions should not be used to diagnose malaria, make clinical decisions, or guide medical treatment.
+
+## Project Screenshots
+
+### 1. Home Page
+![Home Page](images/home-page.png)
+
+### 2. Image Upload Interface
+![Image Upload](images/image-upload.png)
+
+### 3. Classification Result – Parasitized
+![Parasitized Result](images/parasitized-result.png)
+
+### 4. Classification Result – Uninfected
+![Uninfected Result](images/uninfected-result.png)
