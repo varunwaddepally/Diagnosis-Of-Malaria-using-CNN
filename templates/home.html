@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MICROSCOPIC IMAGE PROCESSING FOR MALARIA SCREENING USING DL APPROACH</title>
+    <class="subtitle" style="color:white">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <style>
+      .hero {
+        background: tomato url(https://imgcdn.stablediffusionweb.com/2024/3/2/dd72728c-c45a-4432-8295-c0699d31c05f.jpg) center / cover;
+      }
+       .button.is-black {
+        border-radius: 10px;
+        border: 2px solid white;
+        width:100px;
+       }
+	.button.is-black:hover {
+        	background-color: rgb(2,29,78);
+        	background:linear-gradient(270deg,rgba(2,29,78,0.681)0%,rgba(31,215,22,0.873)60%);
+        	color:rgb(4,4,38);
+      	}
+      .file-name {
+        border-radius: 15px;
+        border: 2px solid black;
+      }
+      .file-label{
+	border-radius:15px;
+}
+      .transparent-container {
+        background: rgba(255, 255, 255, 0);
+        backdrop-filter: blur(30px);
+        padding: 10px;
+        border-radius: 20px;
+        border: 2px solid grey;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- .hero -->
+    <section class="hero is-fullheight" has-background-red>
+      <section class="section">
+        <div class="container">
+          <h1 class="title" style="color:gold">
+            MICROSCOPIC IMAGE PROCESSING FOR MALARIA SCREENING USING DL APPROACH
+          </h1>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container has-text-centered bg-text transparent-container" style="width: 50%">
+          <b>
+            <p class="subtitle" style="color:white; font-size:30px">
+              Upload the microscopic blood smear
+            </p><br>
+          </b>
+          <div>
+            <i class="arrow_down"></i>
+            <form action="/classify" method="post" enctype="multipart/form-data" style="margin-top: 50px; width: 100%; text-align: center; margin: auto;">
+              <div class="file has-name is-centered">     
+                <label class="file-label">
+                  <input class="file-input" type="file" id="image" name="image">
+                  <span class="file-cta">
+                    <span class="file-label">
+                      Upload an image
+                    </span>
+                  </span>
+                  <span class="file-name" id="file-name">
+                    No file chosen
+                  </span>
+                </label>
+              </div>
+              <br>
+              <input type="submit" value="Classify" class="button is-black" name="image" id="classify_button">
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <nav class="level">
+        <div class="level-item has-text-centered">
+          <div>
+            <img src="C:/Users/dhana/Music/MALARIA-LOYOLA/static/images/icon.jpg" width=200px; height=200px; alt="Bulma: Free, open source, &amp; modern CSS framework based on Flexbox" style="max-height: 1px;">
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- .section -->
+    <section class="bd-footer-link">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <article class="media notification has-background-white">
+              <div class="media-content">
+                <div class="content">
+                  <p class="subsubtitle">
+                    <strong>Contact</strong>
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="column">
+            <article class="media notification has-background-white">
+              <div class="media-content">
+                <div class="content">
+                  <div class="columns">
+                    <!-- <div class="column">
+                      <p class="subsubtitle">
+                        <strong>project</strong>
+                      </p>
+                    </div> -->
+                  </div>    
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.section -->
+    <!-- /.hero -->
+
+    <script src="C:/Users/dhana/Music/MALARIA-LOYOLA/static/script.js"></script>
+  </body>
+</html>
